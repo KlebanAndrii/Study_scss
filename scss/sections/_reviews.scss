@@ -1,0 +1,58 @@
+.reviews {
+  margin-bottom: 11rem;
+
+  &_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5rem;
+    margin-bottom: 6rem;
+  }
+
+  &_title {
+    max-width: 57rem;
+  }
+
+  &_nav {
+    display: flex;
+  }
+
+  &_arrow {
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url("../images/icons/icon_arrow_right_long.svg");
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+
+    &.swiper-button-disabled {
+      width: 40px;
+      opacity: 0.5;
+      background-image: url("../images/icons/icon_arrow_left_short.svg");
+      cursor: not-allowed;
+    }
+
+    &--prev {
+      &:not(.swiper-button-disabled) {
+        transform: scaleX(-1);
+      }
+    }
+
+    &--next {
+      &.swiper-button-disabled {
+        transform: scaleX(-1);
+      }
+    }
+  }
+}
+
+.reviews-slider {
+  &_list {
+  }
+
+  &_item {
+  }
+}

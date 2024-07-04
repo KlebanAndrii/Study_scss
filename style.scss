@@ -1,0 +1,24 @@
+// abstract
+@import "./scss/abstract/vars";
+@import "./scss/abstract/mixins";
+
+
+// base
+@import "./scss/base/reset";
+@import "./scss/base/fonts";
+@import "./scss/base/global";
+@import "./scss/components/btns";
+@import "./scss/components/arrow-link";
+@import "./scss/components/form";
+@import "./scss/layouts/header";
+
+@import "./scss/sections/hero";
+@import "./scss/components/search-form";
+@import "./scss/components/product-card";
+@import "./scss/sections/popular";
+@import "./scss/sections/about";
+@import "./scss/sections/booking";
+@import "./scss/sections/reviews";
+@import "./scss/components/review-card";
+@import "./scss/layouts/footer";
+@import "./scss/components/social";

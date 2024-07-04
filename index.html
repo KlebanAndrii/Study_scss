@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project JavaScript</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <nav class="nav">
+            <a class="logo" href="">
+              <img
+                class="logo_img"
+                src="images/logo.svg"
+                alt="logotype"
+                width="92"
+                height="48"
+                loading="lazy"
+              />
+            </a>
+            <ul class="menu">
+              <li class="menu_item">
+                <a class="menu_link" href="">Home</a>
+              </li>
+              <li class="menu_item">
+                <a class="menu_link" href="">About Us</a>
+              </li>
+              <li class="menu_item">
+                <a class="menu_link" href="">Booking</a>
+              </li>
+              <li class="menu_item">
+                <a class="menu_link" href="">Get Apps</a>
+              </li>
+            </ul>
+            <button class="nav_btn" type="button">Sign In</button>
+          </nav>
+        </div>
+      </header>
+      <main class="main">
+        <section class="hero">
+          <div class="container hero_inner">
+            <div class="hero_content">
+              <h1 class="title title--lines hero_title">
+                Lorem ipsum dolor sit amet.
+              </h1>
+              <div class="hero_description">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              </div>
+              <form class="search-form hero_form" action="">
+                <div class="search-form_inner">
+                  <label class="search-form_label" for="search"
+                    >Search food</label
+                  >
+                  <input class="search-form_input" type="text" id="search" />
+                  <button class="search-form_btn btn" type="submit">
+                    Search
+                  </button>
+                </div>
+              </form>
+            </div>
+            <a class="arrow-link hero_arrow" href=""></a>
+          </div>
+        </section>
+        <section class="popular">
+          <div class="container">
+            <h2 class="title title--lines popular_title">
+              Lorem ipsum dolor sit.
+            </h2>
+            <div class="popular_description">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Inventore labore quo rerum! Nostrum, tempora illo?
+              </p>
+            </div>
+            <ul class="popular_list">
+              <li class="popular_item">
+                <article class="product-card">
+                  <div class="product-card_content">
+                    <img
+                      class="product-card_img"
+                      src="images/burger.webp"
+                      alt="burger"
+                      width="218"
+                      height="160"
+                      loading="lazy"
+                    />
+                    <h3 class="product-card_name">Lorem ipsum dolor sit.</h3>
+                    <span class="product-card_price">$100</span>
+                  </div>
+                  <a class="product-card_order" href="">Order Now</a>
+                </article>
+              </li>
+              <li class="popular_item">
+                <article class="product-card">
+                  <div class="product-card_content">
+                    <img
+                      class="product-card_img"
+                      src="images/pizza.webp"
+                      alt="pizza"
+                      width="200"
+                      height="200"
+                      loading="lazy"
+                    />
+                    <h3 class="product-card_name">Lorem ipsum dolor sit.</h3>
+                    <span class="product-card_price">$90</span>
+                  </div>
+                  <a class="product-card_order" href="">Order Now</a>
+                </article>
+              </li>
+              <li class="popular_item">
+                <article class="product-card">
+                  <div class="product-card_content">
+                    <img
+                      class="product-card_img"
+                      src="images/hot_dog.webp"
+                      alt="hot dog"
+                      width="203"
+                      height="160"
+                      loading="lazy"
+                    />
+                    <h3 class="product-card_name">Lorem ipsum dolor sit.</h3>
+                    <span class="product-card_price">$80</span>
+                  </div>
+                  <a class="product-card_order" href="">Order Now</a>
+                </article>
+              </li>
+            </ul>
+            <a class="arrow-link popular_arrow" href=""></a>
+          </div>
+        </section>
+        <section class="about">
+          <div class="container about_inner">
+            <div class="about_content">
+              <h2 class="title about_title">
+                <span>About Us</span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </h2>
+              <div class="about_text">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatem nam culpa dolor aliquid aperiam ullam expedita vel
+                  blanditiis soluta laudantium.
+                </p>
+              </div>
+              <a class="btn about_link" href="">View More</a>
+            </div>
+            <div class="about_images">
+              <div class="about_breakfast">
+                <img
+                  class="about_img"
+                  src="images/breakfast.webp"
+                  alt="breakfast"
+                  width="195"
+                  height="195"
+                  loading="lazy"
+                />
+                <span class="about_price">$15</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="booking">
+          <div class="container">
+            <div class="booking_inner">
+              <a class="arrow-link arrow-link--green booking_arrow" href=""></a>
+              <h2 class="title booking_title">Lorem ipsum dolor sit amet.</h2>
+              <div class="booking_text">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptate quaerat quibusdam amet?
+                </p>
+              </div>
+              <form class="form booking_form" action="">
+                <div class="form_inner">
+                  <div class="form_group">
+                    <label class="form_label" for="date"></label>
+                    <input
+                      class="form_input form_input--date"
+                      type="text"
+                      id="date"
+                      name="date"
+                      placeholder="dd-mm-yy"
+                      required
+                    />
+                  </div>
+                  <div class="form_group">
+                    <label class="form_label" for="person"></label>
+                    <input
+                      class="form_input form_input--person"
+                      type="text"
+                      id="person"
+                      name="person"
+                      placeholder="person"
+                      required
+                    />
+                  </div>
+                  <div class="form_group">
+                    <label class="form_label" for="email"></label>
+                    <input
+                      class="form_input form_input--email"
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="email"
+                      required
+                    />
+                  </div>
+                  <div class="form_group">
+                    <label class="form_label" for="phone"></label>
+                    <input
+                      class="form_input form_input--phone"
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      placeholder="phone"
+                      required
+                    />
+                  </div>
+                </div>
+                <button class="btn form_btn" type="submit">Booking Now</button>
+              </form>
+            </div>
+          </div>
+        </section>
+        <section class="reviews">
+          <div class="container">
+            <div class="reviews_head">
+              <h2 class="title reviews_title">
+                Lorem ipsum dolor sit amet.
+              </h2>
+              <div class="reviews_nav">
+                <button
+                  class="reviews_arrow reviews_arrow--prev"
+                  type="button"
+                ></button>
+                <button
+                  class="reviews_arrow reviews_arrow--next"
+                  type="button"
+                ></button>
+              </div>
+            </div>
+            <div class="reviews-slider swiper">
+              <ul class="reviews-slider_list swiper-wrapper">
+                <li class="reviews-slider_item swiper-slide">
+                  <figure class="review-card">
+                    <h3 class="review-card_title">Lorem ipsum dolor sit.</h3>
+                    <blockquote class="review-card_text">
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Neque quidem amet aliquam eum! Sequi culpa
+                        nesciunt nulla voluptatibus ratione quod eius dolores
+                        consequuntur error, numquam ut enim. Minus, est
+                        consectetur.
+                      </p>
+                    </blockquote>
+                    <figcaption class="review-card_info">
+                      <img
+                        class="review-card_photo"
+                        src="images/review_photo_1.webp"
+                        alt="review photo"
+                        width="68"
+                        height="68"
+                        loading="lazy"
+                      />
+                      <div class="review-card_details">
+                        <div class="review-card_author">Lorem, ipsum.</div>
+                        <div class="review-card_stars"></div>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li class="reviews-slider_item swiper-slide">
+                  <figure class="review-card">
+                    <h3 class="review-card_title">Lorem ipsum dolor sit.</h3>
+                    <blockquote class="review-card_text">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aliquid laborum non nulla perspiciatis aut hic voluptate
+                        nobis ducimus incidunt sunt. Similique officia ab a
+                        consectetur aut cupiditate veniam tempora cumque.
+                      </p>
+                    </blockquote>
+                    <figcaption class="review-card_info">
+                      <img
+                        class="review-card_photo"
+                        src="images/review_photo_2.webp"
+                        alt="review photo"
+                        width="68"
+                        height="68"
+                        loading="lazy"
+                      />
+                      <div class="review-card_details">
+                        <div class="review-card_author">Lorem</div>
+                        <div class="review-card_stars"></div>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li class="reviews-slider_item swiper-slide">
+                  <figure class="review-card">
+                    <h3 class="review-card_title">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </h3>
+                    <blockquote class="review-card_text">
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Rerum omnis dolore ex ratione sint, assumenda
+                        veniam placeat atque quas consequatur!
+                      </p>
+                    </blockquote>
+                    <figcaption class="review-card_info">
+                      <img
+                        class="review-card_photo"
+                        src="images/review_photo_1.webp"
+                        alt="review photo"
+                        width="68"
+                        height="68"
+                        loading="lazy"
+                      />
+                      <div class="review-card_details">
+                        <div class="review-card_author">Lorem, ipsum.</div>
+                        <div class="review-card_stars"></div>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li class="reviews-slider_item swiper-slide">
+                  <figure class="review-card">
+                    <h3 class="review-card_title">Lorem ipsum dolor sit.</h3>
+                    <blockquote class="review-card_text">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aliquid laborum non nulla perspiciatis aut hic voluptate
+                        nobis ducimus incidunt sunt. Similique officia ab a
+                        consectetur aut cupiditate veniam tempora cumque.
+                      </p>
+                    </blockquote>
+                    <figcaption class="review-card_info">
+                      <img
+                        class="review-card_photo"
+                        src="images/review_photo_2.webp"
+                        alt="review photo"
+                        width="68"
+                        height="68"
+                        loading="lazy"
+                      />
+                      <div class="review-card_details">
+                        <div class="review-card_author">Lorem</div>
+                        <div class="review-card_stars"></div>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li class="reviews-slider_item swiper-slide">
+                  <figure class="review-card">
+                    <h3 class="review-card_title">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </h3>
+                    <blockquote class="review-card_text">
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Rerum omnis dolore ex ratione sint, assumenda
+                        veniam placeat atque quas consequatur!
+                      </p>
+                    </blockquote>
+                    <figcaption class="review-card_info">
+                      <img
+                        class="review-card_photo"
+                        src="images/review_photo_1.webp"
+                        alt="review photo"
+                        width="68"
+                        height="68"
+                        loading="lazy"
+                      />
+                      <div class="review-card_details">
+                        <div class="review-card_author">Lorem, ipsum.</div>
+                        <div class="review-card_stars"></div>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li class="reviews-slider_item swiper-slide">
+                  <figure class="review-card">
+                    <h3 class="review-card_title">Lorem ipsum dolor sit.</h3>
+                    <blockquote class="review-card_text">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aliquid laborum non nulla perspiciatis aut hic voluptate
+                        nobis ducimus incidunt sunt. Similique officia ab a
+                        consectetur aut cupiditate veniam tempora cumque.
+                      </p>
+                    </blockquote>
+                    <figcaption class="review-card_info">
+                      <img
+                        class="review-card_photo"
+                        src="images/review_photo_2.webp"
+                        alt="review photo"
+                        width="68"
+                        height="68"
+                        loading="lazy"
+                      />
+                      <div class="review-card_details">
+                        <div class="review-card_author">Lorem</div>
+                        <div class="review-card_stars"></div>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="conteiner footer_inner">
+          <a class="logo footer_logo" href="">
+            <img
+              class="logo_img"
+              src="images/logo.svg"
+              alt="logotype"
+              width="92"
+              height="48"
+              loading="lazy"
+            />
+          </a>
+          <div class="footer_text">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <ul class="footer-menu">
+            <li class="footer-menu_item">
+              <a class="footer-menu_link" href="">Home</a>
+            </li>
+            <li class="footer-menu_item">
+              <a class="footer-menu_link" href="">About Us</a>
+            </li>
+            <li class="footer-menu_item">
+              <a class="footer-menu_link" href="">Booking</a>
+            </li>
+            <li class="footer-menu_item">
+              <a class="footer-menu_link" href="">Get Apps</a>
+            </li>
+            <li class="footer-menu_item">
+              <a class="footer-menu_link" href="">Contact</a>
+            </li>
+            <li class="footer-menu_item">
+              <a class="footer-menu_link" href="">FAQs</a>
+            </li>
+          </ul>
+          <ul class="social">
+            <li class="social_item">
+              <a class="social_link" style="-webkit-mask-image: url('images/icons/icon_facebook.svg')" title="go to facebook" href=""></a>
+            </li>
+            <li class="social_item">
+              <a class="social_link" style="-webkit-mask-image: url('images/icons/icon_twitter.svg')" title="go to twitter" href=""></a>
+            </li>
+            <li class="social_item">
+              <a class="social_link" style="-webkit-mask-image: url('images/icons/icon_instagram.svg')" title="go to instagram" href=""></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
